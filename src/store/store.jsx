@@ -20,15 +20,15 @@ export const GlobalProvider = (Children) => (
           finance: [],
           study: [],
           other: [
-            {name: "Swipe left to remove task (Mobile)", category: "Other", desc: "", temp: "", id: 100000001, completed: false},
-            {name: "Tap to show task detail", category: "Other", desc: "", temp: "", id: 200000002, completed: false},
-            {name: "Share this app :)", category: "Other", desc: "", temp: "", id: 300000003, completed: false}
+            {name: "Geser ke kiri untuk menghapus tugas", category: "Sistem", desc: "", temp: "", id: 100000001, completed: false},
+            {name: "Tap untuk melihat detail tugas", category: "Sistem", desc: "", temp: "", id: 200000002, completed: false},
+            {name: "Soon : PWA Support", category: "Sistem", desc: "", temp: "", id: 300000003, completed: false}
           ]
         },
         renderedTasks: [
-          {name: "Swipe left to remove task (Mobile)", category: "Other", desc: "", temp: "", id: 100000001, completed: false},
-          {name: "Tap to show task detail", category: "Other", desc: "", temp: "", id: 200000002, completed: false},
-          {name: "Share this app :)", category: "Other", desc: "", temp: "", id: 300000003, completed: false}
+          {name: "Geser ke kiri untuk menghapus tugas", category: "Sistem", desc: "", temp: "", id: 100000001, completed: false},
+          {name: "Tap untuk melihat detail tugas", category: "Sistem", desc: "", temp: "", id: 200000002, completed: false},
+          {name: "Soon : PWA Support", category: "Sistem", desc: "", temp: "", id: 300000003, completed: false}
         ],
         tempDate: this.setupTempDate()
       };
