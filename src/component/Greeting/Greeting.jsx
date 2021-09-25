@@ -56,7 +56,7 @@ class Greeting extends React.Component {
                         <img src={hei} alt="Hello"/>
                      </div>
                      <div className="intro-modal-header">
-                        <h1>Halo, teman👋</h1>
+                        <h1>Halo👋</h1>
                         <h6>Siapa namamu?</h6>
                      </div>
                      <div className="intro-modal-body">
